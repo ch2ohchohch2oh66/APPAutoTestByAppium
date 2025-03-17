@@ -22,7 +22,6 @@ desired_caps = {
   'noReset': True,       # 不要重置App
   'newCommandTimeout': 6000,
   'automationName' : 'UiAutomator2'
-  # 'app': r'd:\apk\bili.apk',
 }
 
 # 连接Appium Server，初始化自动化环境
