@@ -85,7 +85,7 @@ if not eles:
 else:
     logger.info('开始遍历视频列表，打印视频标题')
     for ele in eles:
-        logger.info(ele.text)
+        logger.info(f'视频标题：{ele.text}')
     logger.info('视频标题打印结束')
 
 
